@@ -9,7 +9,7 @@
             font-family: Arial, sans-serif;
             line-height: 1.6;
             margin: 2em;
-            background-image: url('https://cdn.wallpapersafari.com/40/71/LAql2e.jpg');
+            background-image: url('https://wallpapertag.com/wallpaper/full/f/4/7/350952-widescreen-website-background-2384x1728-ipad-retina.jpg');
             background-size: cover;
             background-position: center;
         }
@@ -49,28 +49,30 @@
         KHUKURI KHODA TRADERS
     </h1>
 
-        <div class="product">
-            <img src="C:\Users\neupa\OneDrive\Desktop\WEBSITE\s.webp" alt="Product 2">
+        <div class="productS">
+          <div class="product">
+             <span class="serial-no">1.</span>
+            <img src="s.webp" alt="Product 2">
             <h3>RAMBOW S SHAPE</h3>
-            <p>$200</p>
+            <p>Rs.5000</p>
             <button onclick="sendWhatsAppMessage('+9779864563255', 'Check out this amazing deal on Product 2 for only $200! Click the link below to buy: https://www.example.com/buy/product2')">Buy</button>
         </div>
-       </div>
- 
- <div class="products">
         <div class="product">
+               <span class="serial-no">2.</span>
             <img src="wood.webp" alt="Product 1">
             <h3>RANBOW KNIFE WOOD </h3>
-            <p>$100</p>
+            <p>Rs.3500</p>
             <button onclick="sendWhatsAppMessage('+9779864563255', 'Check out this amazing deal on Product 1 for only $100! Click the link below to buy: https://www.example.com/buy/product1')">Buy</button>
         </div>
         <div class="product">
+        <span class="serial-no">3.</span>
             <img src= "AGAD5926.webp" alt="Product 2">
-            <h3>GREEN LEAF KHUKURI</h3>
-            <p>$200</p>
+            <h3> KHUKURI BONE HANDLE</h3>
+            <p>Rs.5000</p>
             <button onclick="sendWhatsAppMessage('+9779864563255', 'Check out this amazing deal on Product 2 for only $200! Click the link below to buy: https://www.example.com/buy/product2')">Buy</button>
         </div>
        </div>
+
        <script>
         function sendWhatsAppMessage(phoneNumber, message) {
             const url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
